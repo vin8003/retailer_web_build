@@ -1,0 +1,176 @@
+{
+  "version": 3,
+  "pages404": true,
+  "appType": "app",
+  "caseSensitive": false,
+  "basePath": "",
+  "redirects": [
+    {
+      "source": "/:path+/",
+      "destination": "/:path+",
+      "internal": true,
+      "priority": true,
+      "statusCode": 308,
+      "regex": "^(?:/((?:[^/]+?)(?:/(?:[^/]+?))*))/$"
+    }
+  ],
+  "headers": [],
+  "rewrites": {
+    "beforeFiles": [],
+    "afterFiles": [],
+    "fallback": []
+  },
+  "dynamicRoutes": [],
+  "staticRoutes": [
+    {
+      "page": "/",
+      "regex": "^/(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/(?:/)?$"
+    },
+    {
+      "page": "/_global-error",
+      "regex": "^/_global\\-error(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/_global\\-error(?:/)?$"
+    },
+    {
+      "page": "/_not-found",
+      "regex": "^/_not\\-found(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/_not\\-found(?:/)?$"
+    },
+    {
+      "page": "/dashboard",
+      "regex": "^/dashboard(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/dashboard(?:/)?$"
+    },
+    {
+      "page": "/dashboard/customers",
+      "regex": "^/dashboard/customers(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/dashboard/customers(?:/)?$"
+    },
+    {
+      "page": "/dashboard/customers/details",
+      "regex": "^/dashboard/customers/details(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/dashboard/customers/details(?:/)?$"
+    },
+    {
+      "page": "/dashboard/offers",
+      "regex": "^/dashboard/offers(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/dashboard/offers(?:/)?$"
+    },
+    {
+      "page": "/dashboard/offers/edit",
+      "regex": "^/dashboard/offers/edit(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/dashboard/offers/edit(?:/)?$"
+    },
+    {
+      "page": "/dashboard/offers/new",
+      "regex": "^/dashboard/offers/new(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/dashboard/offers/new(?:/)?$"
+    },
+    {
+      "page": "/dashboard/orders",
+      "regex": "^/dashboard/orders(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/dashboard/orders(?:/)?$"
+    },
+    {
+      "page": "/dashboard/orders/chat",
+      "regex": "^/dashboard/orders/chat(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/dashboard/orders/chat(?:/)?$"
+    },
+    {
+      "page": "/dashboard/orders/details",
+      "regex": "^/dashboard/orders/details(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/dashboard/orders/details(?:/)?$"
+    },
+    {
+      "page": "/dashboard/orders/edit",
+      "regex": "^/dashboard/orders/edit(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/dashboard/orders/edit(?:/)?$"
+    },
+    {
+      "page": "/dashboard/products",
+      "regex": "^/dashboard/products(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/dashboard/products(?:/)?$"
+    },
+    {
+      "page": "/dashboard/products/add",
+      "regex": "^/dashboard/products/add(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/dashboard/products/add(?:/)?$"
+    },
+    {
+      "page": "/dashboard/products/bulk",
+      "regex": "^/dashboard/products/bulk(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/dashboard/products/bulk(?:/)?$"
+    },
+    {
+      "page": "/dashboard/products/bulk/details",
+      "regex": "^/dashboard/products/bulk/details(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/dashboard/products/bulk/details(?:/)?$"
+    },
+    {
+      "page": "/dashboard/products/edit",
+      "regex": "^/dashboard/products/edit(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/dashboard/products/edit(?:/)?$"
+    },
+    {
+      "page": "/dashboard/profile",
+      "regex": "^/dashboard/profile(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/dashboard/profile(?:/)?$"
+    },
+    {
+      "page": "/favicon.ico",
+      "regex": "^/favicon\\.ico(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/favicon\\.ico(?:/)?$"
+    },
+    {
+      "page": "/login",
+      "regex": "^/login(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/login(?:/)?$"
+    },
+    {
+      "page": "/signup",
+      "regex": "^/signup(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/signup(?:/)?$"
+    }
+  ],
+  "dataRoutes": [],
+  "rsc": {
+    "header": "rsc",
+    "varyHeader": "rsc, next-router-state-tree, next-router-prefetch, next-router-segment-prefetch",
+    "prefetchHeader": "next-router-prefetch",
+    "didPostponeHeader": "x-nextjs-postponed",
+    "contentTypeHeader": "text/x-component",
+    "suffix": ".rsc",
+    "prefetchSegmentHeader": "next-router-segment-prefetch",
+    "prefetchSegmentSuffix": ".segment.rsc",
+    "prefetchSegmentDirSuffix": ".segments",
+    "clientParamParsing": false,
+    "dynamicRSCPrerender": false
+  },
+  "rewriteHeaders": {
+    "pathHeader": "x-nextjs-rewritten-path",
+    "queryHeader": "x-nextjs-rewritten-query"
+  }
+}
