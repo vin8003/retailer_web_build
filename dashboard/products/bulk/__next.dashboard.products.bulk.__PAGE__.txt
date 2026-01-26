@@ -1,9 +1,9 @@
 1:"$Sreact.fragment"
 2:I[47257,["/_next/static/chunks/ff1a16fafef87110.js","/_next/static/chunks/d2be314c3ece3fbe.js"],"ClientPageRoot"]
-3:I[40345,["/_next/static/chunks/9268326af314a206.js","/_next/static/chunks/e4a14f75a40e2f6d.js","/_next/static/chunks/3a3f2832bbfd4288.js","/_next/static/chunks/d0d41604770a0196.js","/_next/static/chunks/200e294034091c34.js","/_next/static/chunks/b987b9d15d1cc360.js","/_next/static/chunks/ad15dca6e81ad71d.js","/_next/static/chunks/195c216f52dae3f8.js"],"default"]
+3:I[40345,["/_next/static/chunks/9268326af314a206.js","/_next/static/chunks/e4a14f75a40e2f6d.js","/_next/static/chunks/d8ad68801d2f5116.js","/_next/static/chunks/d0d41604770a0196.js","/_next/static/chunks/200e294034091c34.js","/_next/static/chunks/195c216f52dae3f8.js","/_next/static/chunks/9d2fa00f248360fd.js"],"default"]
 6:I[97367,["/_next/static/chunks/ff1a16fafef87110.js","/_next/static/chunks/d2be314c3ece3fbe.js"],"OutletBoundary"]
 7:"$Sreact.suspense"
-0:{"buildId":"8VOI0TO0Gr07ny0Eyfqkr","rsc":["$","$1","c",{"children":[["$","$L2",null,{"Component":"$3","serverProvidedParams":{"searchParams":{},"params":{},"promises":["$@4","$@5"]}}],[["$","script","script-0",{"src":"/_next/static/chunks/b987b9d15d1cc360.js","async":true}],["$","script","script-1",{"src":"/_next/static/chunks/ad15dca6e81ad71d.js","async":true}],["$","script","script-2",{"src":"/_next/static/chunks/195c216f52dae3f8.js","async":true}]],["$","$L6",null,{"children":["$","$7",null,{"name":"Next.MetadataOutlet","children":"$@8"}]}]]}],"loading":null,"isPartial":false}
+0:{"buildId":"qhKLwb4Tipb8dNm-n__wm","rsc":["$","$1","c",{"children":[["$","$L2",null,{"Component":"$3","serverProvidedParams":{"searchParams":{},"params":{},"promises":["$@4","$@5"]}}],[["$","script","script-0",{"src":"/_next/static/chunks/195c216f52dae3f8.js","async":true}],["$","script","script-1",{"src":"/_next/static/chunks/9d2fa00f248360fd.js","async":true}]],["$","$L6",null,{"children":["$","$7",null,{"name":"Next.MetadataOutlet","children":"$@8"}]}]]}],"loading":null,"isPartial":false}
 4:{}
 5:{}
 8:null
