@@ -47,6 +47,10 @@
       "destination": "/dashboard/purchases/new/index.html"
     },
     {
+      "source": "/dashboard/print-labels",
+      "destination": "/dashboard/print-labels/index.html"
+    },
+    {
       "source": "/dashboard/products/add",
       "destination": "/dashboard/products/add/index.html"
     },
