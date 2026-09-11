@@ -27,6 +27,10 @@
       "destination": "/dashboard/products/ledger/index.html"
     },
     {
+      "source": "/dashboard/display-labels",
+      "destination": "/dashboard/display-labels/index.html"
+    },
+    {
       "source": "/dashboard/orders/details",
       "destination": "/dashboard/orders/details/index.html"
     },
