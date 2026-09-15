@@ -144,8 +144,8 @@
       </div>
     `;let s=[];if(u.discount||u.savings){let e=[];u.discount&&e.push(`<div class="discount">${x(u.discount)}</div>`),u.savings&&e.push(`<div class="savings">${x(u.savings)}</div>`),s.push(`<div class="promo-header">${e.join("")}</div>`)}if(u.productName&&s.push(`<div class="name">${x(u.productName)}</div>`),(u.mrp||u.sellingPrice)&&(s.push('<div class="prices">'),u.mrp&&s.push(`<div class="mrp-wrapper">MRP: <span class="mrp">${x(u.mrp)}</span></div>`),u.sellingPrice&&s.push(`<div class="price">${x(u.sellingPrice)}</div>`),s.push("</div>")),u.barcode){let e=r(u.barcode,t);s.push(`<div class="barcode-slot"><svg class="barcode" data-value="${x(u.barcode)}" data-format="${e}"></svg></div>`)}return s.join("")}function j(e,t,r,n){let o="horizontal"===n,i=e=>`${(t*e).toFixed(2)}mm`;return`
     .label {
-      width: ${r?`${e}mm`:"100%"};
-      height: ${r?`${t}mm`:"100%"};
+      width: ${e}mm;
+      height: ${t}mm;
       box-sizing: border-box;
       overflow: hidden;
       padding: ${r?"2mm":"3mm"};
@@ -281,11 +281,11 @@
         }
       </style>
       ${t.join("")}
-    `}else{i=`${n.widthMm}mm ${n.heightMm}mm`;let e=[];for(let t=0;t<o.length;t++)e.push(`<div class="sheet-row">${o[t]}</div>`);a=`
+    `}else{i="";let e=[];for(let t=0;t<o.length;t++)e.push(`<div class="sheet-row">${o[t]}</div>`);a=`
       <style>
         .sheet-row {
-          width: 100vw;
-          height: 100vh;
+          width: ${n.widthMm}mm;
+          height: ${n.heightMm}mm;
           box-sizing: border-box;
           page-break-after: always;
           break-after: page;
@@ -299,7 +299,7 @@
   <meta charset="utf-8" />
   <title>Print Display Labels</title>
   <style>
-    @page { size: ${i}; margin: 0; }
+    @page { ${i?`size: ${i};`:""} margin: 0; }
     html, body { margin: 0; padding: 0; background: #fff; }
     @media print {
       html, body {
