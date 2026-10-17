@@ -11,6 +11,10 @@
       "destination": "/dashboard/products/bulk/details/index.html"
     },
     {
+      "source": "/dashboard/admin/verifications",
+      "destination": "/dashboard/admin/verifications/index.html"
+    },
+    {
       "source": "/dashboard/customers/details",
       "destination": "/dashboard/customers/details/index.html"
     },
