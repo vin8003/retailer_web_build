@@ -11,8 +11,16 @@
       "destination": "/dashboard/products/bulk/details/index.html"
     },
     {
+      "source": "/dashboard/orders/return-detail",
+      "destination": "/dashboard/orders/return-detail/index.html"
+    },
+    {
       "source": "/dashboard/admin/verifications",
       "destination": "/dashboard/admin/verifications/index.html"
+    },
+    {
+      "source": "/dashboard/products/write-offs",
+      "destination": "/dashboard/products/write-offs/index.html"
     },
     {
       "source": "/dashboard/customers/details",
@@ -37,6 +45,10 @@
     {
       "source": "/dashboard/orders/details",
       "destination": "/dashboard/orders/details/index.html"
+    },
+    {
+      "source": "/dashboard/orders/returns",
+      "destination": "/dashboard/orders/returns/index.html"
     },
     {
       "source": "/dashboard/purchases/edit",
