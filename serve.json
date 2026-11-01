@@ -27,6 +27,10 @@
       "destination": "/dashboard/customers/details/index.html"
     },
     {
+      "source": "/dashboard/admin/moderation",
+      "destination": "/dashboard/admin/moderation/index.html"
+    },
+    {
       "source": "/dashboard/suppliers/ledger",
       "destination": "/dashboard/suppliers/ledger/index.html"
     },
@@ -73,6 +77,10 @@
     {
       "source": "/dashboard/products/add",
       "destination": "/dashboard/products/add/index.html"
+    },
+    {
+      "source": "/dashboard/verification",
+      "destination": "/dashboard/verification/index.html"
     },
     {
       "source": "/dashboard/offers/edit",
